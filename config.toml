@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Flaky Thoughts"
-theme = "ananke"
+baseURL = "http://amolchavan.space/"
+languageCode = "en-uk"
+title = "QA Perspective"
+theme = "minimal"
