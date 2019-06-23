@@ -1,4 +1,4 @@
-baseURL = "http://amolchavan.space/"
+baseURL = "https://amolchavan.space/"
 languageCode = "en-us"
 #title = ""
 theme = "minimal"
