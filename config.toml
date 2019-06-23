@@ -50,11 +50,11 @@ theme = "minimal"
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/amol-chavan-8b334647/"
+    url = "https://www.linkedin.com/in/4m01"
     name = "linkedin"
     weight = 4
 
 [[menu.icon]]
-    url = "https://stackoverflow.com/users/1115090/amol/"
+    url = "https://stackoverflow.com/users/1115090/4m01/"
     name = "stack-overflow"
     weight = 5
