@@ -1,19 +1,15 @@
 ---
 title: "Block Push Notification on Chrome in Selenium Webdriver"
-date: 2019-06-22T23:37:07+05:30
+date: 2019-06-23
+tags: ["Selenium","How-to"]
 draft: false
 ---
-# Block Push Notification on Chrome in Selenium Webdriver
 
 Many of you might already know that Chrome browser supports push notification almost on all platforms from version [42](https://developers.google.com/web/updates/2015/03/push-notifications-on-the-open-web?hl=en) and many sites including Facebook and Google+ have already started delivering push notification for end users. So when it comes to automating such sites/apps first thing that you notice is browser asking permission to deliver push notification.
 
-![](https://lh3.googleusercontent.com/IVt4JDjdHn6VU-M_I4x-40BaVmcK8upDfgJfJApnEr9l4qCPR5HGdwBXcKs1suENuIH3d0dH4phPzSOADJCBfM7PnmjLhOyduzIZhNa9kWxDQieaSRlqUmGnQ1LixUFuODZpC_DW)
+![Facebook asking to allow permission to show Notifications](https://lh3.googleusercontent.com/IVt4JDjdHn6VU-M_I4x-40BaVmcK8upDfgJfJApnEr9l4qCPR5HGdwBXcKs1suENuIH3d0dH4phPzSOADJCBfM7PnmjLhOyduzIZhNa9kWxDQieaSRlqUmGnQ1LixUFuODZpC_DW)*Facebook asking to allow permission to show Notifications*
 
-Facebook asking to allow permission to show Notifications
-
-Facebook asking for permission to show push notification
-
-**Problem Statement:-**
+ **Problem Statement:-**
 
 As you can observe in above image that it would be impossible to perform immediate next action in browser after login as it’s been blacked-out. Chrome driver will wait for sometime (implicit wait) and then try to perform next step in browser, whatever it may be, it will fail and if you missed the step in execution which might cause failure of next step and result would be failed test/test suite.
 
@@ -23,11 +19,13 @@ Workaround - when you Not to Block Push Notification on Chrome in Selenium Webdr
 
 Simple thing to do, is find body element of page [which exist for all the pages :-) ], and perform double click on it. But as mentioned, it would be just workaround.
 
-    public void doDoubleClick(){
-        WebElement body = driver.findElement(By.tagName("body"));
-        Actions actions= new Actions(driver).doubleClick(body);
-        actions.build().perform();
-    }
+```java
+public void doDoubleClick(){
+    WebElement body = driver.findElement(By.tagName("body"));
+    Actions actions= new Actions(driver).doubleClick(body);
+    actions.build().perform();
+}
+```
 
 Perform double click on page to get the page back from blacked-out state when notification poped-up.
 
@@ -43,16 +41,15 @@ Whatever you would have done manually, would it be possible to set this up while
 
 Almost for each user customizable setting there is ChromeOption available. You can check all options [here](http://www.assertselenium.com/java/list-of-chrome-driver-command-line-arguments/). Now to prevent or block push notifications on Chrome we can use disable-notifications option.
 
-    public class DriverFactory {
-    
-      public static WebDriver createInstance(){
-        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("disable-notifications");
-        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-        WebDriver driver = new ChromeDriver();
-        return driver;
-      }
-    
-    }
-
+```java
+public class DriverFactory {
+      public static WebDriver createInstance(){
+        DesiredCapabilities capabilities =             DesiredCapabilities.chrome();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("disable-notifications");
+        capabilities.setCapability(ChromeOptions.CAPABILITY,             options);
+        WebDriver driver = new ChromeDriver();
+        return driver;
+      }
+}
+```
