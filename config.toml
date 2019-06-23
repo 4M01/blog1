@@ -16,7 +16,7 @@ theme = "minimal"
     highlightLanguages = ["go", "java", "haskell", "kotlin", "scala", "swift"]
 
 [[menu.main]]
-    url = "http://amolchavan.space"
+    url = "https://amolchavan.space"
     name = "Home"
     weight = 1
 

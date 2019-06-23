@@ -1,6 +1,6 @@
 ---
 title: "Block Push Notification on Chrome in Selenium Webdriver"
-date: 2019-06-23
+date: 2016-06-23
 tags: ["Selenium","How-to"]
 draft: false
 ---
@@ -43,13 +43,13 @@ Almost for each user customizable setting there is ChromeOption available. You c
 
 ```java
 public class DriverFactory {
-      public static WebDriver createInstance(){
-        DesiredCapabilities capabilities =             DesiredCapabilities.chrome();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("disable-notifications");
-        capabilities.setCapability(ChromeOptions.CAPABILITY,             options);
-        WebDriver driver = new ChromeDriver();
-        return driver;
-      }
+      public static WebDriver createInstance(){
+        DesiredCapabilities capabilities =             DesiredCapabilities.chrome();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("disable-notifications");
+        capabilities.setCapability(ChromeOptions.CAPABILITY,             options);
+        WebDriver driver = new ChromeDriver();
+        return driver;
+      }
 }
 ```
