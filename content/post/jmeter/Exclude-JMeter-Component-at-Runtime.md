@@ -12,7 +12,7 @@ As you may already know that, JMeter Scripts are saved with extension as `jmx` w
 
 I have created sample JMeter Test Plan (also available on GitHub) for demonstration of this POC. Script looks like this -
 
-![Exclude-JMeter-Component-at-Runtime\jmeter-gui-demo-script](Exclude-JMeter-Component-at-Runtime\jmeter-gui-demo-script.png)_JMeter GUI Demo Script_
+![JMeter GUI Demo Script]/(jmeter-gui-demo-script.png)_JMeter GUI Demo Script_
 
 And below is the JMX structure of it.
 
