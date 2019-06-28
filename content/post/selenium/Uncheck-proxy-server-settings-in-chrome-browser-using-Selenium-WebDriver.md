@@ -1,6 +1,6 @@
 ---
 title: "Uncheck Proxy Server Settings in Chrome Browser Using Selenium WebDriver"
-date: 2017-9-16
+date: 2017-09-16
 tags: ["selenium","How-to"]
 draft: false
 author: "Amol Chavan"
