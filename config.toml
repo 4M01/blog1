@@ -1,7 +1,8 @@
 baseURL = "https://amolchavan.space/"
 languageCode = "en-us"
-#title = ""
+title = "A blog by Amol Chavan"
 theme = "minimal"
+googleAnalytics = "UA-142975356-1"
 
 [params]
     author = "Amol Chavan"
@@ -10,7 +11,7 @@ theme = "minimal"
     accent = "Blue"
     showBorder = true
     backgroundColor = "white"
-    font = "ubuntu" # should match the name on Google Fonts!
+#    font = "ubuntu" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "java", "haskell", "kotlin", "scala", "swift"]
