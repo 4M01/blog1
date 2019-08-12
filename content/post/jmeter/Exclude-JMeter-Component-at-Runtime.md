@@ -4,6 +4,7 @@ date: 2019-06-23
 tags: ["jmeter"]
 draft: false
 author: "Amol Chavan"
+ghcommentid : 1
 ---
 
 This post in trying to be answer of one of the [question](https://stackoverflow.com/questions/56545015/jmeter-execute-specific-components-only-on-gui-and-not-cli) on the [stackoverflow](http://www.stackoverflow.com).

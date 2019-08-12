@@ -107,3 +107,16 @@ img {
 img+em {
     background-color: gainsboro
 }
+
+.postCommentBtn {
+    color: white !important;
+    padding: 5px;
+    border-radius: 2px;
+    border: blue 1px solid;
+    /* color: var(--accent) !important; */
+    background: var(--accent) !important;
+}
+
+.postCommentBtn:hover {
+    color: yellow !important;
+}
