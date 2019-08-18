@@ -36,6 +36,13 @@
 <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+<script>
+    function displayIframe() {
+        document.getElementById("iframeDisplay").innerHTML =
+            '<iframe src="https://cdn.forms-content.sg-form.com/54604acf-c174-11e9-aa86-2663e9f731ae" />';
+
+    }
+</script>
 {{ end }}
 
 <body>
@@ -69,7 +76,17 @@
                 {{ if .Site.Menus.icon }}
                 <ul class="nav navbar-nav navbar-right">
                     {{ range sort .Site.Menus.icon }}
-                    <li class="navbar-icon"><a href="{{ .URL }}" target="_blank"><i class="fa fa-{{ .Name }}"></i></a>
+                    <li class="navbar-icon">
+                        <a href="{{ .URL }}" target="_blank"><i class="fa fa-{{ .Name }}"></i></a>
+                    </li>
+                    {{ end }}
+                    {{ range sort .Site.Menus.button }}
+                    <li class="navbar-icon">
+                        <a href="{{ .URL }}" target="_blank">
+                            <!-- <iframe src="https://cdn.forms-content.sg-form.com/54604acf-c174-11e9-aa86-2663e9f731ae" /> -->
+                            <i class="fa fa-{{ .Name }}"><button onclick="displayIframe()"
+                                    class="subscribe">Subscribe</button></i>
+                        </a>
                     </li>
                     {{ end }}
                 </ul>

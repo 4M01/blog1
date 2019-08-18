@@ -36,7 +36,7 @@ googleAnalytics = "UA-142975356-1"
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:connect@amolchavan.space"
+    url = "mailto:amol.chavan@zoho.com"
     name = "envelope-o"
     weight = 1
 
@@ -59,3 +59,8 @@ googleAnalytics = "UA-142975356-1"
     url = "https://stackoverflow.com/users/1115090/4m01/"
     name = "stack-overflow"
     weight = 5
+
+[[menu.button]]
+    url = "https://cdn.forms-content.sg-form.com/54604acf-c174-11e9-aa86-2663e9f731ae"
+    name = ""
+    weight = 6

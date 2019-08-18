@@ -120,3 +120,12 @@ img+em {
 .postCommentBtn:hover {
     color: yellow !important;
 }
+
+
+.subscribe {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    padding: 5px;
+    border-radius: 2px;
+    border: blue 1px solid;
+}
