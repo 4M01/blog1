@@ -4,6 +4,7 @@ date: 2017-09-16
 tags: ["selenium","How-to"]
 draft: false
 author: "Amol Chavan"
+ghcommentid : 2
 ---
 
 If you have read my past [posts](http://qaperspective.blogspot.in/2016/08/how-can-i-enhanceimprove-my-selenium.html), you might know that I follow a lot of forums to understand what type of issues are faced by the community. This helps me to broaden my knowledge. Couple of days ago, I stumbled upon this [question](https://www.facebook.com/groups/Testingridewithautomation/permalink/1770893919843998/) on a such forum on Facebook.

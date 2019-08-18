@@ -4,6 +4,7 @@ date: 2016-08-17
 tags: ["learning","advice"]
 draft: false
 author: "Amol Chavan"
+ghcommentid : 7
 ---
 
 ***Two months ago, when it was just six months in automation using Selenium and then I had a question - how can I enhance/improve my selenium skills? In this post, I am trying to answer my question.***

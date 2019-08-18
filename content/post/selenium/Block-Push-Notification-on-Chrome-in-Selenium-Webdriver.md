@@ -4,6 +4,7 @@ date: 2016-06-23
 tags: ["Selenium","How-to"]
 draft: false
 author: "Amol Chavan"
+ghcommentid : 6
 ---
 
 Many of you might already know that Chrome browser supports push notification almost on all platforms from version [42](https://developers.google.com/web/updates/2015/03/push-notifications-on-the-open-web?hl=en) and many sites including Facebook and Google+ have already started delivering push notification for end users. So when it comes to automating such sites/apps first thing that you notice is browser asking permission to deliver push notification.

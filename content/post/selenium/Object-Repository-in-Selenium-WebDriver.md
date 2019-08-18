@@ -4,6 +4,7 @@ date: 2016-07-11
 tags: ["selenium", "How-to"]
 draft: false
 author: "Amol Chavan"
+ghcommentid : 4
 ---
 
 **Update : This is old post. I wrote this when I was learning Java and WebDriver. Now that I have seen enough I know, `Object Repository` has nothing to do with Selenium WebDriver**
@@ -57,7 +58,8 @@ Now that we have created properties file (OR), we need to have mechanism in a pl
    
    ```java
    
-   import org.openqa.selenium.By;    import org.openqa.selenium.WebElement;
+   import org.openqa.selenium.By;
+    import org.openqa.selenium.WebElement;
    import java.io.FileInputStream;
    import java.io.IOException;
    import java.util.Properties;
