@@ -4,7 +4,11 @@ date: 2019-06-23
 tags: ["jmeter"]
 draft: false
 author: "Amol Chavan"
-ghcommentid : 1
+ghcommentid: 1
+---
+
+# Exclude JMeter Component at Runtime
+
 ---
 
 This post in trying to be answer of one of the [question](https://stackoverflow.com/questions/56545015/jmeter-execute-specific-components-only-on-gui-and-not-cli) on the [stackoverflow](http://www.stackoverflow.com).
@@ -55,18 +59,6 @@ APDEX result of non-gui execution of demo script: You can see `Debug sampler` Do
 
 ![APDEX Result WITHOUT Debug Sampler](/Exclude-JMeter-Component-at-Runtime/APDEX-Result-WITHOUT-Debug-Sampler.png)_APDEX Result WITHOUT Debug Sampler_
 
-
-
 Of course, **if you load this script again in JMeter this values going to go away/get override with your next save but if you are using any version control system to keep track of your `jmx` script [which you should] it will be very easy to add this changes in the script again.**
 
 There is one more solution which will be posted shortly to fix this issue but its dirty fix if you are not using CI tool.
-
-
-
-
-
-
-
-
-
-

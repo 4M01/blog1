@@ -1,10 +1,14 @@
 ---
 title: "Open Browser in Incognito InPrivate in Selenium WebDriver"
 date: 2016-09-27
-tags: ["selenium","How-to"]
+tags: ["selenium", "How-to"]
 draft: false
 author: "Amol Chavan"
-ghcommentid : 3
+ghcommentid: 3
+---
+
+# Open Browser in Incognito InPrivate in Selenium WebDriver
+
 ---
 
 ### How to Open Chrome Browser in Incognito mode using Selenium / WebDriver ?
@@ -15,16 +19,16 @@ We will use Chrome Drivers [Capabilities & ChromeOptions](https://sites.google.c
     import org.openqa.selenium.chrome.ChromeDriver;
     import org.openqa.selenium.chrome.ChromeOptions;
     import org.openqa.selenium.remote.DesiredCapabilities;
-    
+
     /**
      * Created by Amol Chavan on 9/19/2016.
      */
     public class PrivateBrowsing {
-    
+
         public static void main(String args[]){
             createInstance();
         }
-    
+
         public static WebDriver createInstance(){
             DesiredCapabilities capabilities = DesiredCapabilities.chrome();
             ChromeOptions options = new ChromeOptions();
@@ -44,16 +48,16 @@ We will use [Firefox Profile](https://seleniumhq.github.io/selenium/docs/api/jav
     import org.openqa.selenium.WebDriver;
     import org.openqa.selenium.firefox.FirefoxDriver;
     import org.openqa.selenium.firefox.FirefoxProfile;
-    
+
     /**
      * Created by Amol Chavan on 9/19/2016.
      */
     public class PrivateBrowsing {
-    
+
         public static void main(String args[]){
             createInstance();
         }
-    
+
         public static WebDriver createInstance(){
             FirefoxProfile firefoxProfile = new FirefoxProfile();
             firefoxProfile.setPreference("browser.private.browsing.autostart",true);
@@ -70,16 +74,16 @@ We will use [IE Driver Capabilities](https://seleniumhq.github.io/selenium/docs/
     import org.openqa.selenium.WebDriver;
     import org.openqa.selenium.ie.InternetExplorerDriver;
     import org.openqa.selenium.remote.DesiredCapabilities;
-    
+
     /**
      * Created by Amol Chavan on 9/19/2016.
      */
     public class PrivateBrowsing {
-    
+
         public static void main(String args[]){
             createInstance();
         }
-    
+
         public static WebDriver createInstance(){
             DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
             capabilities.setCapability(InternetExplorerDriver.FORCE_CREATE_PROCESS, true);

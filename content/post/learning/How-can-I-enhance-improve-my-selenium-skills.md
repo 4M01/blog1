@@ -1,13 +1,17 @@
 ---
 title: "How Can I Enhance/Improve My Selenium Skills?"
 date: 2016-08-17
-tags: ["learning","advice"]
+tags: ["learning", "advice"]
 draft: false
 author: "Amol Chavan"
-ghcommentid : 7
+ghcommentid: 7
 ---
 
-***Two months ago, when it was just six months in automation using Selenium and then I had a question - how can I enhance/improve my selenium skills? In this post, I am trying to answer my question.***
+# How Can I Enhance/Improve My Selenium Skills?
+
+---
+
+**_Two months ago, when it was just six months in automation using Selenium and then I had a question - how can I enhance/improve my selenium skills? In this post, I am trying to answer my question._**
 
 You might think, why do I think that I have eligibility to answer this question? OK, here is the story- it's been just eight months that I have started with Selenium and I got an amazing opportunity to explore all aspects of Selenium and related tools- like Selenium WebDriver API for Web-App automation, Selenium Grid for test distribution, [TestNG](http://testng.org/) for controlling test flow, [Extent Reporting](http://relevantcodes.com/extentreports-for-selenium/) for awesome test results, [Appium](http://appium.io/) for mobile automation, [AutoIT](https://www.autoitscript.com/site/autoit/) & [Sikuli](http://www.sikuli.org/) for handling native OS control opened from browsers (Browse window for file upload) & bit of [Maven](https://maven.apache.org/) for dependency management & test suite invocation. I have even designed two automation frameworks for two different products.
 

@@ -4,7 +4,11 @@ date: 2016-07-11
 tags: ["selenium", "How-to"]
 draft: false
 author: "Amol Chavan"
-ghcommentid : 4
+ghcommentid: 4
+---
+
+# Object Repository in Selenium WebDriver
+
 ---
 
 **Update : This is old post. I wrote this when I was learning Java and WebDriver. Now that I have seen enough I know, `Object Repository` has nothing to do with Selenium WebDriver**
@@ -31,7 +35,7 @@ Object Repository is a mechanism to store objects information from application u
 
 ### **Setting Up Object Repository for Selenium WebDriver**
 
-\We know that, QTP internally uses XML to store object repository. For Selenium Context,someone already answered on [\*\*stackoverflow](http://stackoverflow.com/questions/26758299/object-repository-in-xml-file-for-selenium-webdriver-framework-with-java-and-tes) \*\*  and answer shows use of XML as object repository for Webdriver. Personally, I prefer to use properties files as they are more readable than XML files. As you might aware, property file uses key-value pair format. You must decide the format for your properties file, I am using it in following way:-
+\We know that, QTP internally uses XML to store object repository. For Selenium Context,someone already answered on [\*\*stackoverflow](http://stackoverflow.com/questions/26758299/object-repository-in-xml-file-for-selenium-webdriver-framework-with-java-and-tes) \*\* and answer shows use of XML as object repository for Webdriver. Personally, I prefer to use properties files as they are more readable than XML files. As you might aware, property file uses key-value pair format. You must decide the format for your properties file, I am using it in following way:-
 
 `[logical_name]=[locator_type]~[locator_value]`
 
@@ -51,23 +55,20 @@ Sample property file screenshot-
 
 Now that we have created properties file (OR), we need to have mechanism in a place to fetch this objects in our test script. Let's design a class which will help us to achieve the following objectives.:-
 
-
-
 1. Get WebElement as mentioned in our properties file.[method `getElement()`]
 2. Get Locator as mentioned in our properties file. [method `getLocator()`]
-   
    ```java
-   
+
    import org.openqa.selenium.By;
-    import org.openqa.selenium.WebElement;
+    import org.openqa.selenium.WebElement;
    import java.io.FileInputStream;
    import java.io.IOException;
    import java.util.Properties;
-   
-   
+
+
    public class ObjectMap extends ActionUtilities{
      Properties properties;
-   
+
      /**
      * This is Constructor Method accepts Absolute path of object map file and load it into memory.
      * @param mapFilePath
@@ -82,7 +83,7 @@ Now that we have created properties file (OR), we need to have mechanism in a pl
          System.out.println(e.getMessage());
        }
    }
-   
+
    /**
    * This is Method accepts LogicalElementName present in object map file and returns By of type webdriver.
    * @param logicalElementName
@@ -92,7 +93,7 @@ Now that we have created properties file (OR), we need to have mechanism in a pl
        String locator = properties.getProperty(logicalElementName);
        String locatorType = locator.split("~")[0];
        String locatorValue = locator.split("~")[1];
-       
+
        switch (locatorType.toUpperCase()) {
          case "ID":
          return By.id(locatorValue);
@@ -118,7 +119,7 @@ Now that we have created properties file (OR), we need to have mechanism in a pl
        return null;
      }
    }
-   
+
      /**
      * This is Method accepts LogicalElementName present in object map file and returns webelement of type webdriver.
      * @param logicalElementName
@@ -126,27 +127,25 @@ Now that we have created properties file (OR), we need to have mechanism in a pl
      public WebElement getElement(String logicalElementName){
        return driver.findElement(getLocator(logicalElementName));
      }
-   
+
      /**
      * Property getter
      * @param propertyName
-     */    
+     */
      public String getProperty(String propertyName){
        return  properties.getProperty(propertyName);
      }
-   
+
      /**
      * Property setter.
      */
      public void setProperty(String key, String value) {
         properties.setProperty(key,value);
      }
-     
+
    }
-   
+
    ```
-   
-   
 
 ### **Using Object Repository in Selenium WebDriver script:-**
 
@@ -154,7 +153,7 @@ Now let us try to automate the scenario of login to application which uses Login
 
     import com.utilities.ObjectMap;
     import org.openqa.selenium.firefox.FirefoxDriver;
-    
+
     /**
      * Created by Amol Chavan on 11-07-2016.
      */

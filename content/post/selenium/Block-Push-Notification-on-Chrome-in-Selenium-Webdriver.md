@@ -1,17 +1,21 @@
 ---
 title: "Block Push Notification on Chrome in Selenium Webdriver"
 date: 2016-06-23
-tags: ["Selenium","How-to"]
+tags: ["Selenium", "How-to"]
 draft: false
 author: "Amol Chavan"
-ghcommentid : 6
+ghcommentid: 6
+---
+
+# Block Push Notification on Chrome in Selenium Webdriver
+
 ---
 
 Many of you might already know that Chrome browser supports push notification almost on all platforms from version [42](https://developers.google.com/web/updates/2015/03/push-notifications-on-the-open-web?hl=en) and many sites including Facebook and Google+ have already started delivering push notification for end users. So when it comes to automating such sites/apps first thing that you notice is browser asking permission to deliver push notification.
 
-![Facebook asking to allow permission to show Notifications](https://lh3.googleusercontent.com/IVt4JDjdHn6VU-M_I4x-40BaVmcK8upDfgJfJApnEr9l4qCPR5HGdwBXcKs1suENuIH3d0dH4phPzSOADJCBfM7PnmjLhOyduzIZhNa9kWxDQieaSRlqUmGnQ1LixUFuODZpC_DW)*Facebook asking to allow permission to show Notifications*
+![Facebook asking to allow permission to show Notifications](https://lh3.googleusercontent.com/IVt4JDjdHn6VU-M_I4x-40BaVmcK8upDfgJfJApnEr9l4qCPR5HGdwBXcKs1suENuIH3d0dH4phPzSOADJCBfM7PnmjLhOyduzIZhNa9kWxDQieaSRlqUmGnQ1LixUFuODZpC_DW)_Facebook asking to allow permission to show Notifications_
 
- **Problem Statement:-**
+**Problem Statement:-**
 
 As you can observe in above image that it would be impossible to perform immediate next action in browser after login as it’s been blacked-out. Chrome driver will wait for sometime (implicit wait) and then try to perform next step in browser, whatever it may be, it will fail and if you missed the step in execution which might cause failure of next step and result would be failed test/test suite.
 

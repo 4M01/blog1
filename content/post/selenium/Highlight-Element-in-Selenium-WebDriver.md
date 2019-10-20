@@ -1,15 +1,19 @@
 ---
 title: "Highlight Element in Selenium WebDriver"
 date: 2017-08-29
-tags: ["selenium","How-to"]
+tags: ["selenium", "How-to"]
 draft: false
 author: "Amol Chavan"
-ghcommentid : 5
+ghcommentid: 5
+---
+
+# Highlight Element in Selenium WebDriver
+
 ---
 
 I [missed](http://amolchavan.space/post/selenium/object-repository-in-selenium-webdriver/) highlighting object feature of QTP when I used to debug my selenium API call on webelement. Number of times I wondered, why didn't by default any method is provided to perform highlight action. But I no longer wish for the same as I have found work around.
 
-Remember this - *‘JavaScript comes in handy to perform any fancy tasks on DOM.’*
+Remember this - _‘JavaScript comes in handy to perform any fancy tasks on DOM.’_
 
 #### **Logic to perform highlight `WebElement` in Selenium WebDriver:-**
 
