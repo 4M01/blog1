@@ -4,7 +4,6 @@ date: 2016-09-27
 tags: ["selenium", "How-to"]
 draft: false
 author: "Amol Chavan"
-ghcommentid: 3
 ---
 
 # Open Browser in Incognito InPrivate in Selenium WebDriver

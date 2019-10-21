@@ -4,7 +4,6 @@ date: 2017-08-29
 tags: ["selenium", "How-to"]
 draft: false
 author: "Amol Chavan"
-ghcommentid: 5
 ---
 
 # Highlight Element in Selenium WebDriver

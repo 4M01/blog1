@@ -4,7 +4,6 @@ date: 2016-06-23
 tags: ["Selenium", "How-to"]
 draft: false
 author: "Amol Chavan"
-ghcommentid: 6
 ---
 
 # Block Push Notification on Chrome in Selenium Webdriver

@@ -4,7 +4,6 @@ date: 2016-08-17
 tags: ["learning", "advice"]
 draft: false
 author: "Amol Chavan"
-ghcommentid: 7
 ---
 
 # How Can I Enhance/Improve My Selenium Skills?

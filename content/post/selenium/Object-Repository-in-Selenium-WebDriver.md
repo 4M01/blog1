@@ -4,7 +4,6 @@ date: 2016-07-11
 tags: ["selenium", "How-to"]
 draft: false
 author: "Amol Chavan"
-ghcommentid: 4
 ---
 
 # Object Repository in Selenium WebDriver

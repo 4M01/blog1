@@ -4,7 +4,6 @@ date: 2019-10-08
 tags: ["TestAutothon"]
 draft: false
 author: "Amol Chavan"
-ghcommentid: 2
 ---
 
 # Takeaways from Autothon 2019.
