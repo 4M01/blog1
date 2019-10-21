@@ -26,7 +26,7 @@ GoogleAnalytics = "UA-142975356-1"
     weight = 2
 
 [[menu.main]]
-    url = "/project/"
+    url = "/projects/"
     name = "Projects"
     weight = 3
 
