@@ -1,6 +1,6 @@
 ---
 title: "Empathy as a core skill for hiring in IT"
-date: 2020-02-22
+date: 2020-02-02
 tags: ["hiring", "empathy"]
 draft: false
 author: "Amol Chavan"
