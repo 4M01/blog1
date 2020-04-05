@@ -25,7 +25,7 @@ Without delay, I will start with the list of things I learned.
 9. Client Side Testing is underrated in the industry. Of course,  there are pioneers who has adopted it and promoting it for while.  But there is no traction as it deserves.
 Link for [Google Trend](https://trends.google.com/trends/explore?q=Performance%20Testing,JMeter,Client%20Side%20Performance,Lighthouse%20Chrome,YSlow) :
 
-    ![Trends for term - Performance Testing, JMeter, Client Side Performance, Lighthouse Chrome, YSlow](/Performance-Testing-Few-Takeaways/Trend-For-Term-Performance-Testing-JMeter-Client Side Performance-Lighthouse-Chrome-YSlow.png)_Last Year Trend Performance Testing, JMeter, Client Side Performance, Lighthouse Chrome, YSlow_
+    ![Trends for term - Performance Testing, JMeter, Client Side Performance, Lighthouse Chrome, YSlow](/Performance-Testing-Few-Takeaways/Trend-For-Term-Performance-Testing-JMeter-Client Side Performance-Lighthouse-Chrome-YSlow.png)_Last Year Trend for keywords : Performance Testing, JMeter, Client Side Performance, Lighthouse Chrome, YSlow_
 
 1.  [YSlow](http://yslow.org/), extension that was developed around 8 years ago,which is also [no more maintained](https://github.com/marcelduran/yslow), is something still being used and searched for client side performance testing.
 2.    Yahoo! posted - [Best Practices for Speeding Up Your Web Site](https://developer.yahoo.com/performance/rules.html) long back, it's still good as it was produced yesterday.
