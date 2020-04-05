@@ -8,7 +8,7 @@ author: "Amol Chavan"
 
 # Performance Testing : Few Takeaways
 
-You have been working on functional testing of software for while,  you may be proficient in taking help of tools and libraries like UFT and Selenium to ease your repeatable work but have you given any thought about non-functional testing? (like performance testing) Do you know how it is different from functional testing?
+You may have been working on functional testing of software for while,  you may be proficient in taking help of tools and libraries like UFT and Selenium to ease your repeatable work but have you given any thought about non-functional testing? (like performance testing) Do you know how it is different from functional testing?
 
 In this post, you will get insights into learnings that I had while working on Performance Testing of software.  This post will help you to understand some of the few skills required for performance testing. It will also give some insights about how to get most out of the JMeter ecosystem. Let me be explicit - I don't claim to be expert in the field, I just completed more than a year working in performance testing for my current employer. Prior to this engagement, when I was working at my last employer I got introduced to Performance Testing and JMeter  and I learned basics concepts in 5 months along with my daily job.
 
