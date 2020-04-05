@@ -1,7 +1,7 @@
 ---
 title: "Performance Testing : Few Takeaways"
 date: 2020-04-05
-tags: [""learning","performance testing"]
+tags: ["learning","performance testing","jmeter"]
 draft: false
 author: "Amol Chavan"
 ---
