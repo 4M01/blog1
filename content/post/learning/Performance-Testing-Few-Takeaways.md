@@ -1,3 +1,11 @@
+---
+title: "Performance Testing : Few Takeaways"
+date: 2020-04-05
+tags: [""learning","performance testing"]
+draft: false
+author: "Amol Chavan"
+---
+
 # Performance Testing : Few Takeaways
 
 You have been working on functional testing of software for while,  you may be proficient in taking help of tools and libraries like UFT and Selenium to ease your repeatable work but have you given any thought about non-functional testing? (like performance testing) Do you know how it is different from functional testing?
