@@ -16,7 +16,7 @@ You might think, why do I think that I have eligibility to answer this question?
 
 As I worked on the whole set of tools in six months, I was exposed to very high learning curve in early phase and later I found out my learning curve is going stagnant so I have to make an effort to keep enhancing my skills. Below are the list of the things which I did and doing and benefited on my quest to enhance/improve selenium skills:-
 
-1. [blog](https://amolchavan.space/).
+1. [Blog](https://amolchavan.space/).
 2. [SO](http://stackoverflow.com/)
 3. [Selenium Users - Google Groups](https://groups.google.com/forum/#!forum/selenium-users)
 4. [Selenium Test Automation User Group](https://www.linkedin.com/groups/961927)
@@ -50,6 +50,9 @@ Follow who are doing great in Selenium and their posts/answers can take you to t
 - [Krishnan Mahadevan](https://rationaleemotions.wordpress.com/)
 - [David Burns](http://www.theautomatedtester.co.uk/)
 - [Alister Scott](https://watirmelon.blog/)
+
+
+P.S. You should also keep an eye on job postings even if you are not looking for a job actively. Job Descriptions gives an idea about how tools and strategrgies are used across the indursty and what is new shiny thing we should know about. Recently, came across informative post from Topatl about [hiring selenium developer](https://www.toptal.com/selenium#hiring-guide) please go through it.
 
 This is all for now.
 
