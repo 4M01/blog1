@@ -93,7 +93,7 @@ def InputJSON = new JsonSlurper().parseText(inputFile.text)
 InputJSON.each{ println it }
 ```
 
-**Example 6: We can also read the [JSON file from network](https://www.youtube.com/watch?v=s87UbU8z6bg&t=927s)easily in a Groovy.**
+**Example 6: We can also read the [JSON file from network](https://www.youtube.com/watch?v=s87UbU8z6bg&t=927s) easily in a Groovy.**
 
 ```
 
@@ -132,7 +132,7 @@ But what if JSON you are reading JOSN is not strict one (like below in example) 
 To set parser level to Relax level, you need just an additional import - `import groovy.json.JsonParserType
 `
 
-**Example 7: Handling [not so proper JSON (LAX JSON)](https://www.youtube.com/watch?v=s87UbU8z6bg&t=1528s) in a Groovy:
+**Example 7: Handling [not so proper JSON (LAX JSON)](https://www.youtube.com/watch?v=s87UbU8z6bg&t=1528s) in a Groovy**
 
 ```
 import groovy.json.JsonParserType
