@@ -7,11 +7,11 @@ author: "Amol Chavan"
 ---
 # Groovy Tutorial : Read JSON file in a Groovy using JSON Slurper
 ---
-TLDR : I have also created [video](https://youtu.be/s87UbU8z6bg) around this functionality. if you are not into reading and like video, plese check it out. 
+**TLDR** : I have also created [video](https://youtu.be/s87UbU8z6bg) around this functionality. if you are not into reading and like video, plese check it out. 
 
 After going through this post, you will understand how to convert json to groovy object using [JSONSlurper.](http://docs.groovy-lang.org/2.4.0/html/gapi/groovy/json/JsonSlurper.html)
 
-
+## Why Groovy in API testing
 Understanding [Groovy](https://groovy-lang.org/) is important as it is
 used in different API testing clients like [JMeter](https://jmeter.apache.org/), [SoapUI](https://www.soapui.org/) and [Katalon](https://docs.katalon.com/katalon-studio/docs/create_first_api_test_katalon_studio.html#step-5-add-an-existing-request-to-a-test-case)
 
@@ -40,7 +40,7 @@ For Groovy, you just need to import on package and you are done, no need to add 
 
 With this you save lot of time, writing custom POJOs and mappers.
 
-Some of the examples JSON parsing to Groovy using `JsonSlurper`
+**Example 1: [Simple example of JSON parsing in Groovy using `JsonSlurper`]()**
 
 ```
 import groovy.json.JsonSlurper
@@ -52,7 +52,7 @@ println result.getClass()
 
 If you [run](https://groovyconsole.appspot.com/script/5174395060355072) the above code, you will see object of type `lazylist`.
 
-Example  of [Array](https://groovyconsole.appspot.com/script/5204430337081344) :
+**Example 2: Example of Array as JSON value of key [Array]()**
 ```
 import groovy.json.JsonSlurper
 JsonSlurper jsonSlurper = new JsonSlurper()
@@ -62,9 +62,11 @@ println result1.getClass()
 println (result1 instanceof List)
 println (result1 instanceof Map)
 ```
+Link to Groovy Console - https://groovyconsole.appspot.com/script/5204430337081344
 
 It is very easy to print the all the keys of json: just like magic, [example](https://groovyconsole.appspot.com/script/5131218861424640) demonstrate different data type and native support. AND YOU CAN CREATE NULL as value for key without fuss:
 
+**Example 4: [We convert JSON which has different datatypes to Groovy Object]()** with ease.
 ```
 import groovy.json.JsonSlurper
 JsonSlurper jsonSlurper = new JsonSlurper()
@@ -80,7 +82,7 @@ Object result2 = jsonSlurper.parseText(allDataType )
 println (result2.keySet())
  ```
 
-You can read JSON from text file in Groovy and create object and use in just 2 lines:
+**Example 5: We can [read JSON from text file from computer in Groovy]() and create object and use it in just 2 lines:**
 
 ```
 
@@ -91,7 +93,7 @@ def InputJSON = new JsonSlurper().parseText(inputFile.text)
 InputJSON.each{ println it }
 ```
 
-You can also read the [JSON file from network](https://groovyconsole.appspot.com/script/4888845266976768) easily  using Groovy:
+**Example 6: We can also read the [JSON file from network]() easily in a Groovy ()**
 
 ```
 
@@ -106,6 +108,8 @@ JsonSlurper jsonSlurper = new JsonSlurper()
 Object result = jsonSlurper.parse(reader)
 println (result.toString())
 ```
+Link to Grovy console - https://groovyconsole.appspot.com/script/4888845266976768
+
 
 But what if JSON you are reading is not strict one (like below in example) and dont want your parser very stict about it?
 ```
@@ -128,7 +132,7 @@ But what if JSON you are reading is not strict one (like below in example) and d
 To set parser level to Relax level, you need just an additional import - `import groovy.json.JsonParserType
 `
 
-Example: Handle not so proper JSON in Groovy:
+**Example 7: Handle not so proper JSON in Groovy:
 
 ```
 import groovy.json.JsonParserType
