@@ -4,6 +4,7 @@ date: 2020-12-04
 tags: ["Groovy","JSON","JSONSlurper","API Testing"]
 draft: false
 author: "Amol Chavan"
+socialshare: true
 ---
 # Groovy Tutorial: Read JSON file in a Groovy using JSONSlurper
 ---
