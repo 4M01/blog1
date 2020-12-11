@@ -1,6 +1,6 @@
 baseURL = "https://amolchavan.space/"
 languageCode = "en-us"
-title = "A blog by Amol Chavan"
+title = "Amol Chavan"
 theme = "minimal"
 GoogleAnalytics = "UA-142975356-1"
 [params]
