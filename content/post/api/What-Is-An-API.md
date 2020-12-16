@@ -1,6 +1,6 @@
 ---
 title: "What is An API"
-date: 2020-12-12
+date: 2020-12-11
 tags: ["API","What is an api","Rest API","API Testing"]
 draft: false
 author: "Amol Chavan"
@@ -174,7 +174,7 @@ Example: [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-o
 
 JIRA Plugins system also uses API - to create extensions like [zephyr](https://www.getzephyr.com/) & [X-Ray](https://www.getxray.app/)
 
-4**[. IFTTT](https://ifttt.com/)**
+**4.[IFTTT](https://ifttt.com/)**
 
 API provides way to integrate applications together. 
 
