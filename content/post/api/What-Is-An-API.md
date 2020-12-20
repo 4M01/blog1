@@ -155,9 +155,12 @@ In a nutshell, an API does following things:
 
 4. API can be used to extend the functionality of existing program. 
 
-    Example: Browser extension.
+    Example: Browser extensions.
 
     
 Hope this helps.
 
 Cheers!
+
+
+P.S. Next follow up post in the API testing series is - [Types of an API.](http://amolchavan.space/post/api/type-of-an-api/) 
