@@ -140,56 +140,18 @@ As a real-world example, think about the electricity supply in your house, apart
 
 <center>![Electric Plug as an example of the API](/What-is-an-API/ElectricPlugAsAnExampleOfTheAPI.png)_Electric Plug as an example of the API_</center>
 
-Let's go through the examples -
+In a nutshell, an API does following things:
 
-**1. Java Time API** 
+ 1. Provides way to excahnge information with a program. 
 
-We can import the `java.time` package to work with the date and time API. The package includes many date and time classes.
+    This is the sole purpose of any kind interface, be it, GUI, CLI or API.
 
-```java
-import java.time.LocalDate; // import the LocalDate class
+ 
+ 2. Provides abstraction around complex functionality.
 
-public class Main {
-  public static void main(String[] args) {
-    LocalDate myObj = LocalDate.now(); // Create a date object
-    System.out.println(myObj); // Display the current date
-  }
-}
-```
+    Example: Going to restaurant and ordering a food. You just need convey your order to waiter and he will provide that information to chef in a kitchen. Chef will prepare your ordered dish and it can be very complex/simple based on the your order. Once dish is prepared, waiter will serve ordered dish on your table. Just like how API works, you dont need to understand what are the ingredients required for food, how to prepare it and how much time it will take. All this information and implementation is hidden from end user.
 
-**2. Simple VBScript**
 
-Open Notepad, copy and paste one line mentioned, save it as `vbs` file and click on it.
-
-```visual-basic
-MsgBox "Hello World"
-```
-
-**3. Browser Extensions**
-
-FireFox Browser is native app and it does supports extensions ecosystem through [JavaScript API](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API).
-
-With just two files and few lines of code, you can [create the working extension](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension) and it is possible because browser as native app provides API which anyone who knows JavaScript can use to consume in his/her program and can extend the functionality of the browsers.
-
-Developer can extends browser features in multiple different way and that is reason for so many different extensions to exist but as standard API Browser decide what information exchange can happen with browser application through this API and developer who are using this API don't need to understand underlying working of the browser. Browser also don't need to understand how this APIs are going to use in other programs.
-
-Example: [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) is one of my favorite extension but there are [tons of an extensions](https://addons.mozilla.org/en-US/firefox/) which extends functionality of the browsers.  
-
-JIRA Plugins system also uses API - to create extensions like [zephyr](https://www.getzephyr.com/) & [X-Ray](https://www.getxray.app/)
-
-**4.[IFTTT](https://ifttt.com/)**
-
-API provides way to integrate applications together. 
-
-Example: One can save every email received on GMail to Dropbox because both of this applications provided the API or one can revive text message if he gets an email by using GMail API and Twilio API. It is easy to integrate the apps if required APIs are provided and then there are service providers like [IFTTT](https://ifttt.com/) and [Zapier](https://zapier.com/) who can also help to create workflows on this API.
-
-It's apparent from above examples, what API's can be used for
-
-1. As building block while creating applications.
-2. Using Existing application as a block.
-3. Extend the functionality of an application by building on top of it.
-4. Integrating  multiple applications together.
-5. Hiding information and allowing to interact with limited application for information exchange.
 
 Hope this helps.
 
