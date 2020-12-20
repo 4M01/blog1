@@ -34,32 +34,29 @@ GoogleAnalytics = "UA-142975356-1"
 # The "name" field should match the name of the icon to be used
 # The list of available icons can be found at http://fontawesome.io/icons/
 
-[[menu.icon]]
-    url = "mailto:amol.chavan@zoho.com"
-    name = "envelope-o"
-    weight = 1
+
 
 [[menu.icon]]
     url = "https://github.com/4m01/"
     name = "github"
-    weight = 2
+    weight = 1
 
 [[menu.icon]]
     url = "https://twitter.com/_4m01"
     name = "twitter"
-    weight = 3
+    weight = 2
 
 [[menu.icon]]
     url = "https://www.linkedin.com/in/4m01"
     name = "linkedin"
-    weight = 4
+    weight = 3
 
 [[menu.icon]]
     url = "https://stackoverflow.com/users/1115090/4m01/"
     name = "stack-overflow"
-    weight = 5
+    weight = 4
 
 [[menu.button]]
-    url = "https://cdn.forms-content.sg-form.com/54604acf-c174-11e9-aa86-2663e9f731ae"
+    url = "https://us1.list-manage.com/contact-form?u=fbba080f6d88fe73f2b7a483e&form_id=d433fe0258eff8e32f01c788cd840c2e"
     name = ""
-    weight = 6
+    weight = 5

@@ -8,12 +8,10 @@ socialshare: true
 ---
 # What is an API?
 
-In this post, we will cover what an API is with simple everyday examples that will help you to relate and recall this concept anytime. 
+In this post you will also understand:
 
-You will also understand:
-
-1. What is the use of an API? 
-2. What are the examples of an API?
+1. What is an API? 
+2. What are  the relatable examples of an API?
 
     
 
@@ -128,7 +126,12 @@ Application like git client does provide both GUI and CLI so that user can use a
 
 ## API: Context about Programming <a name="APIcontext"></a>
 
-All the applications created to do information exchange because they are created with the one of the intent mentioned earlier.  In a way, it is required to have at least one kind of interface available so information exchange happens. We went through the two kind of interfaces in previous section. Let's discuss about API.  **APIs are developed so they will get consumed in some of the program(s) as per the need. APIs, almost all the time, are never meant for end user interaction.**
+All the applications created suppose to do information exchange because they are created with the at least one of the intent mentioned earlier. 
+
+In a way, it is required to have at least one kind of interface available so information exchange happens. We went through the two kind of interfaces in previous section - GUI & CLI
+
+Let's discuss about API now.  **APIs are developed so they will get consumed in some other program(s) as per the need. APIs, almost all the time, are never meant for end user interaction.**
+
 
 From [MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
 
