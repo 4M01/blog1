@@ -25,15 +25,8 @@
   {{ partial "socialshare.html" . }}
   {{ end }}
 </main>
-<div class="Comments">
-  <!-- <h4>Comments</h4>
-  <script src="https://utteranc.es/client.js" repo="4M01/blog" issue-term="title" theme="github-light"
-    crossorigin="anonymous" async>
-  </script> -->
-  <div class="fb-comments" data-href={{ .Page.Permalink }}
-  data-width="" data-numposts="5"></div>
-</div>
 
+<hr>
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -51,6 +44,15 @@
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
 </form>
+</div>
+<hr>
+<div class="Comments">
+  <!-- <h4>Comments</h4>
+  <script src="https://utteranc.es/client.js" repo="4M01/blog" issue-term="title" theme="github-light"
+    crossorigin="anonymous" async>
+  </script> -->
+  <div class="fb-comments" data-href={{ .Page.Permalink }}
+  data-width="" data-numposts="5"></div>
 </div>
 
 <!--End mc_embed_signup-->
