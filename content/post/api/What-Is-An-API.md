@@ -144,15 +144,20 @@ In a nutshell, an API does following things:
 
  1. Provides way to excahnge information with a program. 
 
-    This is the sole purpose of any kind interface, be it, GUI, CLI or API.
+    This is the sole purpose of any kind of interface be it, GUI, CLI or API.
 
  
  2. Provides abstraction around complex functionality.
 
-    Example: Going to restaurant and ordering a food. You just need convey your order to waiter and he will provide that information to chef in a kitchen. Chef will prepare your ordered dish and it can be very complex/simple based on the your order. Once dish is prepared, waiter will serve ordered dish on your table. Just like how API works, you dont need to understand what are the ingredients required for food, how to prepare it and how much time it will take. All this information and implementation is hidden from end user.
+    Example: Going to restaurant and ordering a food. You just need to convey your order to waiter and he will provide that information to chef in a kitchen. Chef will prepare your ordered dish and it can be very complex/simple dish to prepare based on your order. Once dish is prepared, waiter will serve ordered dish on your table. Just like how API works, you dont need to understand what are the ingredients required for food, how to prepare it and how much time it will take. All this information and implementation is hidden from end user.
 
+3. API also helps in [modular programming](https://en.wikipedia.org/wiki/Modular_programming)
 
+4. API can be used to extend the functionality of existing program. 
 
+    Example: Browser extension.
+
+    
 Hope this helps.
 
 Cheers!
