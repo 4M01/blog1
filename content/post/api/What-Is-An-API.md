@@ -12,6 +12,7 @@ In this post you will also understand:
 
 1. What is an API? 
 2. What are  the relatable examples of an API?
+3. Why we need an API?
 
     
 
@@ -140,7 +141,7 @@ As a real-world example, think about the electricity supply in your house, apart
 
 <center>![Electric Plug as an example of the API](/What-is-an-API/ElectricPlugAsAnExampleOfTheAPI.png)_Electric Plug as an example of the API_</center>
 
-In a nutshell, an API does following things:
+In a nutshell, We need an API as API does following things:
 
  1. Provides way to excahnge information with a program. 
 
@@ -151,7 +152,7 @@ In a nutshell, an API does following things:
 
     Example: Going to restaurant and ordering a food. You just need to convey your order to waiter and he will provide that information to chef in a kitchen. Chef will prepare your ordered dish and it can be very complex/simple dish to prepare based on your order. Once dish is prepared, waiter will serve ordered dish on your table. Just like how API works, you dont need to understand what are the ingredients required for food, how to prepare it and how much time it will take. All this information and implementation is hidden from end user.
 
-3. API also helps in [modular programming](https://en.wikipedia.org/wiki/Modular_programming)
+3. API also helps in [modular programming](https://en.wikipedia.org/wiki/Modular_programming) [We will cover this as separate posts.]
 
 4. API can be used to extend the functionality of existing program. 
 
