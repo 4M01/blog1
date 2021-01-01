@@ -141,6 +141,15 @@ As a real-world example, think about the electricity supply in your house, apart
 
 <center>![Electric Plug as an example of the API](/What-is-an-API/ElectricPlugAsAnExampleOfTheAPI.png)_Electric Plug as an example of the API_</center>
 
+### Simple example of an API for visualization <a name="SimpleExampleOfAnAPI"></a>
+
+Below diagram can be used to visualize the API in a simple way. Here one application(producer) exposing interface so that another application(consumer) can use it(consume it). 
+
+Just like the switch shown in above diagram, its upto us which application(consumer) we want to use to consume the information. Of course, Most of the time, there will be some protocols[http], preferred programming lanauages that one need to use as consumer so they can use the API.
+
+<center>![Electric Plug as an example of the API](/What-is-an-API/Simple-API-Example.png)_Simple API Example to visualize what is an API_</center>
+
+
 ## Why we need an API:
 
  1. API provides way to excahnge information with a program. 
