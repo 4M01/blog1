@@ -22,6 +22,7 @@ This post focuses on the general term API and not on webservices or REST API . H
 2. [An Interface](#Interface)
 3. [Application Interface](#ApplicationInterface)
 4. [API: Context about Programming](#APIcontext)
+5. [Simple Example of an API](#SimpleExampleOfAnAPI)
 
 ## API - Application Programming Interface
 
@@ -140,8 +141,8 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side
 As a real-world example, think about the electricity supply in your house, apartment, or other dwellings. If you want to use an appliance in your house, you simply plug it into a plug socket and it works. You don't try to wire it directly into the power supply — to do so would be really inefficient and, if you are not an electrician, difficult and dangerous to attempt.
 
 <center>![Electric Plug as an example of the API](/What-is-an-API/ElectricPlugAsAnExampleOfTheAPI.png)_Electric Plug as an example of the API_</center>
-
-### Simple example of an API for visualization <a name="SimpleExampleOfAnAPI"></a>
+<a name="SimpleExampleOfAnAPI"></a>
+### Simple example of an API for visualization 
 
 Below diagram can be used to visualize the API in a simple way. Here one application(producer) exposing interface so that another application(consumer) can use it(consume it). 
 

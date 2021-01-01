@@ -10,9 +10,19 @@ socialshare: true
 
    In the last [post](https://amolchavan.space/post/api/what-is-an-api/), we covered [what is an API](https://amolchavan.space/post/api/what-is-an-api/) and why we need an API. 
    
-   In this post, we will cover how API generally get classified based on their usage and release policies.
+In this post, we will cover :
 
-## Types of API based on Usage:
+1. [Classification of an API based on the usage](#API-Classification-Based-On-Usage)
+
+2. [Classification of an API based on release policies]
+(#API-Classification-Based-On-Release-Policies) 
+
+3. [Difference between API and Web Services](#Difference-between-API-and-WebServices)
+
+4. [Difference between Web Services and REST APIs](#Difference-between-WebServices-And-REST-API)
+<br>
+
+## Types of API based on Usage:<a name="API-Classification-Based-On-Usage"></a>
 <br>
 ### 1. Libraries and frameworks as APIs
 
@@ -86,6 +96,7 @@ A Web API is an application programming interface for either a web server or a w
 
 <center>![Example of Web API/Untitled%202.png](/Types-of-An-API/Example of Web API.png)_Example of Web API. Source: tutorialsteacher.com_</center>
 
+<a name="API-Classification-Based-On-Release-Policies"></a>
 ## Types of API based on release policies:
 
 #### Private:
@@ -101,6 +112,59 @@ The API is for internal company use only.
 The API is available for use by the public. 
 
 **For example**, Microsoft makes the Windows API public, and Apple releases its API Cocoa, so that software can be written for their platforms. Not all public APIs are generally accessible by everybody. For example, Internet service providers like Cloudflare or Voxility, use RESTful APIs to allow customers and resellers access to their infrastructure information, DDoS stats, network performance or dashboard controls. Access to such APIs is granted either by “API tokens”, or customer status validations.
+<br> 
+
+## Difference between API, WebService & REST API:
+
+API is overloaded term. <em>Web services, Web APIs and APIs</em> are few of those overlapping tech terms that regularly get confused. Folks used these words interchangeably, but are they even the same  thing? They are not wrong when they call it as an API but it's not precise. Let's try to understand the difference between them.
+
+<a name="Difference-between-API-and-WebServices"></a>
+### <u>Difference between API and Web Services</u>
+From Stackoverflow:
+
+> An API (Application Programming Interface) is the means by which third parties can write code that  interfaces with other code. A Web Service is a type of API, one that almost always operates over     HTTP (though some, like SOAP, can use alternate transports, like SMTP). The official W3C definition mentions that Web Services don't necessarily use HTTP, but this is almost always the case and is usually assumed unless mentioned otherwise.
+
+> For examples of web services specifically, see [SOAP](http://en.wikipedia.org/wiki/SOAP), [REST](http://en.wikipedia.org/wiki/REST), and [XML-RPC](http://en.wikipedia.org/wiki/XML-RPC). For an example of another type of API, one written in C for use on a local machine, see the Linux Kernel API.
+
+Basically, a webservice is a method of communication between two machines while an API is an exposed layer allowing you to program against something.
+
+The technical definitions (courtesy of Wikipedia) are:
+
+<b>API:</b>
+
+>An application programming interface (API) is a set of routines, data structures, object classes and/or protocols provided by libraries and/or operating system services in order to support the building of applications.
+
+<b>Webservice:</b>
+
+> A Web service (also Web Service) is defined by the W3C as "a software system designed to support interoperable machine-to-machine interaction over a network"
+
+
+A Web service uses only three styles of use: SOAP, REST and XML-RPC for communication whereas API may use any style for communication.
+
+A Web service always needs a network for its operation whereas an API doesn’t need a network for its operation.
+ 
+
+<a name="Difference-between-WebServices-And-REST-API"></a>
+### <u>Difference between Web Services and REST APIs</u>
+From Stackoverflow:
+
+> A typical WebService will be a few methods an [WSDL](https://www.w3.org/TR/wsdl.html) that describes how to call it. There's no real convention for how these should be structured, so you always need lots of API documentation.
+
+> Typically this will be something like (for ASP.NET):
+
+    HTTP POST to mysite.com/products.asmx/ListAllProducts - returns XML list of products
+    HTTP POST to mysite.com/products.asmx/GetProduct - returns XML for product based on SOAP XML in the posted content
+    HTTP POST to mysite.com/products.asmx/UpdateProduct - changes product based on SOAP XML in the posted content
+
+> REST is more of a convention for structuring all of your methods:
+
+    HTTP GET from mysite.com/products - returns XML or JSON listing all products
+    HTTP GET from mysite.com/products/14 - returns XML or JSON for product 14
+    HTTP POST to mysite.com/products/14 - changes product 14 to what you post in the HTML form.
+    HTTP DELETE to mysite.com/products/14 - removes product 14
+    HTTP PUT to mysite.com/products - adds a new product
+
+> So REST works more like you'd expect browser URLs to. In that way it's more natural and as a convention is much easier to understand. All REST APIs work in a similar way, so you don't spend as long learning the quirks of each system
 
 <hr>
 
