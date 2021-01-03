@@ -94,7 +94,7 @@ For example, the Java Database Connectivity API allows developers to query many 
 
 A Web API is an application programming interface for either a web server or a web browser. It is a web development concept. <span style="background-color:yellow">**In a generic sense, an webservice IS a API over HTTP. They often utilize JSON or XML, but there are some other approaches as well.**</span>
 
-<center>![Example of Web API/Untitled%202.png](/Types-of-An-API/Example of Web API.png)_Example of Web API. Source: tutorialsteacher.com_</center>
+<center>![Example of Web API](/Types-of-An-API/Example of Web API.png)_Example of Web API. Source: tutorialsteacher.com_</center>
 
 <a name="API-Classification-Based-On-Release-Policies"></a>
 ## Types of API based on release policies:
@@ -166,7 +166,11 @@ From Stackoverflow:
 
 > So REST works more like you'd expect browser URLs to. In that way it's more natural and as a convention is much easier to understand. All REST APIs work in a similar way, so you don't spend as long learning the quirks of each system
 
-<hr>
+Below picture will help you visualize the relationship between API, Webservice and Rest API.
+
+<center>![API Webservice and Rest API](/Types-of-An-API/Relationship between API Webservice and Rest API.png)
+_Relationship between API, Webservice and Rest API._</center>
+
 
 Now, that we have covered basics of APIs, we will dig deeper in next post about Web APIs and REST APIs.
 
