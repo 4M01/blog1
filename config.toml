@@ -56,7 +56,3 @@ GoogleAnalytics = "UA-142975356-1"
     name = "stack-overflow"
     weight = 4
 
-#[[menu.button]]
- #   url = "https://us1.list-manage.com/contact-form?u=fbba080f6d88fe73f2b7a483e&form_id=d433fe0258eff8e32f01c788cd840c2e"
-  #  name = ""
-   # weight = 5
